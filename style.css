@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'sans serif';
+}
+
+#header{
+  position:sticky;
+  top:0;
+  z-index: 1000;
+  background-color: #f7f7f7;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:70px;
+}
+
+#header-img{
+   width:200px
+}
+
+#form{
+  width:100%;
+  text-align:center;
+}
+
+#email{
+  width:200px;
+  height:20px;
+  margin-top:20px;
+}
+
+#submit{
+  background-color:orange;
+  border:none;
+  display:block;
+  margin:20px auto;
+  padding:10px;
+  font-weight:bold;
+  width:150px;
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+.Handcrafted{
+  font-weight:1000;
+}
+
+#Premium_Materials,#Fast_Shipping,#Quality_Assurance{
+  display:flex;
+  text-align:left;
+}
+
+.icon{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.main-ttl{
+  font-weight:1000;
+}
+
+.txt{
+  display:flex;
+  flex-direction:column;
+  width:650px;
+  justify-content:center;
+}
+
+i{
+  font-size:50px;
+  margin:40px;
+  color:orange;
+}
+
+#video{
+  display:block;
+  margin:40px auto;
+  width:500px;
+  height: calc(500px * 9 / 16);
+  border:none;
+}
+
+#Tenor_Trombone,#Bass_Trombone,#Valve_Trombone{
+  border:1px solid gray;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:white;
+  width:350px;
+}
+
+.items{
+ background-color:#ddd;
+  width: 100%; 
+  text-align: center;
+  padding: 10px 0;
+  font-weight:bold;
+}
+
+.select{
+  background-color:orange;
+  border:none;
+  padding:10px 30px;
+  margin-top:20px;
+}
+
+
+.price{
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size:20px;
+}
+
+ul{
+  list-style:none;
+  font-size:14px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+li{
+  margin-bottom:10px;
+}
+
+.list{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:30px;
+}
+
+.LIST{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:30px;
+}
+
+@media(max-width:750px){
+  .LIST{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  gap:30px;
+}
+}
