@@ -186,10 +186,14 @@ footer p:last-of-type{
     height:100px;
   }
   
-  #Premium_Materials{
+  #Premium_Materials,#Fast_Shipping,#Quality_Assurance{
     width: 500px;
-    margin:0 auto;
-    border: 1px solid;
+    margin:0 auto 10px;
+    padding-right: 40px;
+  }
+  
+  #Premium_Materials p{
+    margin-left: 26px;
   }
   
   .LIST{
@@ -200,8 +204,9 @@ footer p:last-of-type{
   gap:30px;
 }
   
-  body{
-    background-color:gray;
+  #video{
+    width:300px;
+    height: calc(300px * 9 / 16);
   }
   
 }
